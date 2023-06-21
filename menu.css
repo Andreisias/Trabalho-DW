@@ -1,0 +1,243 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+#login:hover{
+    color: #4aff8a;
+    transform: scale(1.2);
+}
+
+
+.palavras span {
+    color: #e1d7d7;
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    font-size: 25px;
+}
+
+#top{
+  position: absolute;
+  top: 50px;
+  right: 1005px;
+
+}
+
+
+#top2{
+  position: absolute;
+  top: 50px;
+  right: 755px;
+}
+
+#top1{
+  position: absolute;
+  top: 50px;
+  right: 505px;
+}
+
+#top3{
+  position: absolute;
+  top: 50px;
+  right: 255px;
+}
+
+.palavras span:hover {
+  color: #4aff8a;
+}
+
+#logo {
+  background-size: cover;
+}
+
+#login {
+  color: #ffffff;
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #000000;
+}
+
+
+p {
+    width: 200px;
+    margin-left: 100px;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    color: #cde2ff;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#call {
+    margin-left: 100px;
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d5d1d1;
+    
+}
+
+#fundo {
+  background-image: url(1.png);
+}
+
+#fundo2 {
+  background-image: url(fundo.png);
+  background-size: cover;
+}
+
+#pc {
+    width: 900px;
+    height: auto;
+    margin: 10pc;
+    position: absolute;
+    top: -15%;
+    right: -15%;
+    transform: scaleX(-1);
+}
+
+#experimentar {
+    color: #ffffff;
+    padding: 10px;
+    position: absolute;
+  top: 400px;
+  right: 750px;
+ background-color: rgb(64, 64, 64);
+ padding: 10px;
+ border-radius: 20px;
+ cursor: pointer;
+ transition: transform 0.3s;
+}
+#experimentar:hover {
+    color: #4aff8a;
+    transform: scale(1.2);
+}
+h3 {
+    text-align: center;
+  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  .square {
+    width: 200px;
+    height: 200px;
+    background-color: #3fa2df;
+    margin: 30px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+  }
+
+  .square:hover {
+    transform: scale(1.2);
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+  text-align: center
+  }
+
+  .planos-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .plano {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid #000000;
+    text-align: center;
+    background-color: #f7f7f7;
+    transition: transform 0.3s;
+  }
+  
+  .plano:hover {
+    transform: translateY(-10px);
+  }
+  
+  .plano h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .plano .preco {
+    font-size: large;
+  }
+  
+  .plano ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .plano ul li {
+    margin-bottom: 8px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+
+  .taxado1 {
+    text-decoration: line-through;
+    filter: blur(1px);
+  }
+
+  .taxado2 {
+    text-decoration: line-through;
+    filter: blur(1px);
+  }
+  
+hr {
+    width: 116%;
+    height: 2px;
+    border: none;
+    background-color: black;
+    margin-left: -8%;
+}
+ 
+.rodape {
+  background-color: #3c3838;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.conteudo {
+  background-color: #3c3838;
+}
+ 
+  
+  

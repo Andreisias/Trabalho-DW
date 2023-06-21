@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+   background-image: url("fundo2.jpg");
+   background-size: cover;
+    }
+
+    .login-container {
+      width: 300px;
+      padding: 40px;
+      background-image: url("fundologin.jpg");
+      background-size: cover;
+      border-radius: 20px;
+      margin: 0 auto;
+    }
+
+    .login-container h2 {
+      text-align: center;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .login-container button:hover {
+      background-color: #45a049;
+    }
+
+    #esqueceu {
+      text-align: right;
+      margin-bottom: 15px;
+    }
+
+    .login-container .show-password {
+      margin-top: 15px;
+    }
+    img {
+        margin-left: 38px; 
+           
+    }
+    #logo {
+      position: absolute;
+      top: 0;
+      right: 1300px;
+    }
+
+  </style>
+</head>
+<body>
+  <img id="logo" src="logo.png" alt="">
+  <div class="login-container">
+    <img src="login.png" alt="">
+    <form>
+      <input type="text" placeholder="Nome de usuário" required>
+      <input type="password" placeholder="Senha" required>
+      <div id="esqueceu">
+        <a href="#">Esqueceu a senha?</a>
+      </div>
+      <button type="submit">Entrar</button>
+      <div class="show-password">
+        <input type="checkbox" id="showPassword">
+        <label for="showPassword">Mostrar Senha</label>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

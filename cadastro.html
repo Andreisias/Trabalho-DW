@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url("fundo2.jpg");
+      background-size: cover;
+    }
+
+    .registration-container {
+      width: 400px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+    }
+
+    .registration-container h2 {
+      text-align: center;
+    }
+
+    .registration-container input[type="text"],
+    .registration-container input[type="email"],
+    .registration-container input[type="password"] {
+      width: 94.5%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    .registration-container select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    .registration-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .registration-container button:hover {
+      background-color: #45a049;
+    }
+
+    .registration-container .terms {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .registration-container .terms label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="registration-container">
+    <h2>CRIAR CONTA</h2>
+    <form>
+      <input type="text" placeholder="Nome" required>
+      <input type="text" placeholder="Sobrenome" required>
+      <input type="email" placeholder="E-mail" required>
+      <input type="password" placeholder="Senha" required>
+      <select>
+        <option value="" selected disabled>Selecione um país</option>
+        <option value="br">Brasil</option>
+        <option value="us">Estados Unidos</option>
+        <option value="ca">Canadá</option>
+        <option value="uk">Reino Unido</option>
+      </select>
+      <div class="terms">
+        <label>
+          <input type="checkbox" required>
+          Aceito os Termos de Uso
+        </label>
+      </div>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+</html>
